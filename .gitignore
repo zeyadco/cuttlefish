@@ -20,13 +20,16 @@ db/archive
 config/newrelic.yml
 coverage
 .vagrant
+.venv
 
 provisioning/roles/newrelic.newrelic-infra
-provisioning/roles/rvm_io.ruby
+provisioning/roles/rvm.ruby
 provisioning/roles/geerlingguy.certbot
 provisioning/roles/DavidWittman.redis
 provisioning/roles/ANXS.postgresql
 provisioning/roles/abtris.nginx-passenger
+provisioning/.roles-installed
+provisioning/playbook.retry
 
 postfix_log/supervisor/*.log
 postfix_log/maillog
